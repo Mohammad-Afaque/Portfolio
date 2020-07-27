@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main-tailwind.css">
   <title>View My Work</title>
 </head>
 
@@ -57,18 +57,45 @@
     <h2 class="sm-heading">
       Check out some of my projects...
     </h2>
-    <div class="projects">
-      <div class="item ">
+    <!-- <div>
+      <div class="container relative">
+        <img class="image" src="./img/portrait.jpg" alt="Project">
 
-        <img src="https://imgur.com/IrzaCvd.jpg" alt="Project">
+        <div
+          class="overlay bg-transparent h-full w-64 transform  transition duration-500 ease-in-out hover:-translate-y-0 hover:bg-red-500  absolute top-0">
+          <span class=" text text-transparent hover:text-white"> Hello World</span></div>
+      </div>
+    </div> -->
+
+    <!-- <div>
+      <div class="container ">
+        <img class="image" src="./img/portrait.jpg" alt="Project">
+
+        <div class="overlay ">
+          <span class=" text "> Hello World</span></div>
+      </div>
+    </div> -->
+    <div class="projects">
+
+      <div class="item container ">
+
+
+        <img class="image" src="https://imgur.com/IrzaCvd.jpg" alt="Project">
+        <div class="overlay ">
+          <span class=" text "> Hello World</span></div>
+
 
         <a href="http://1stideaweb.com/hamararishta/" class="btn-light">
           <i class="fas fa-eye"></i> Project
         </a>
       </div>
-      <div class="item ">
+      <div class="item container">
 
-        <img src="https://imgur.com/rk80zOj.jpg" alt="Project">
+        <img class="image" src="https://imgur.com/rk80zOj.jpg" alt="Project">
+
+        <div class="overlay ">
+          <span class=" text "> Hello World</span></div>
+
 
         <a href="http://1stideaweb.com/webuyanylefthanddrivecars/" class="btn-light">
           <i class="fas fa-eye"></i> Project
@@ -171,6 +198,8 @@
         </a>
       </div>
     </div>
+
+
   </main>
 
   <footer id="main-footer">
