@@ -273,7 +273,7 @@ main#home h1 {
 .projects .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 186px;
 }
 
 .projects .overlay {
