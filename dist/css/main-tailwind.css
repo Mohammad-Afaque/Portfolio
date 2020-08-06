@@ -170,7 +170,6 @@ h3 {
 h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-  text-align: start;
   font-size: 59px;
 }
 
@@ -440,6 +439,7 @@ main#home h1 {
 
   main .lg-heading {
     margin-top: 1rem;
+    text-align: center;
     font-size: 5rem;
   }
 
